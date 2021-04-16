@@ -1,0 +1,51 @@
+sudo hcitool lescan --duplicates >> /dev/null
+btmon
+
+
+
+TODO - LOW PRIORITY
+1. Changing souts into logs 
+2. Changing e.printstacktrace into logs 
+3. Making extension of the script for installing code in the platform
+4. Making a script to enable and disable the java application. 
+5. Make java code to automatically build the code using a pipeline structure. 
+6. Integrate Astra Demo to Orbec
+
+
+TODO - HIGH PRIORITY
+0. Refactor the Wrapper project (done)
+1. Integrate Keis code into your own
+    -> Add Keys Code (Done)
+    -> Look into OpenNI examples (Done)
+    -> Look into Astra Examples (Partially Done)
+        -> Fails with Segmentation Faults
+        -> make install step? ()
+            -> bluez
+            -> folder creation
+
+    -> Add Open CV to your computer and astra to figure out how to integrate OpenCV (Done)
+    -> Start changing out code to encorporate Keis Code into your own. (Done)
+    -> Add Local GAV information of OpenCV (Done)
+    -> Test Run Depth Recording
+    -> Complete Interpretation of all the messages
+        -> Document it
+        -> Add it into integration test framework
+        ->
+2. Ensure bluetooth Connectivity in Persee:
+    -> https://www.jaredwolff.com/get-started-with-bluetooth-low-energy/ (DONE)
+    -> Issue Related to bad file state === https://stackoverflow.com/questions/36907135/bluetooth-low-energy-input-output-error
+    ->
+
+Hypothesis:
+System.loadLibary -> get libraries from the system file
+                  -> For this to happen must be isntalled in the system library
+                  -> If the code is installed in the right place. loadLibrary should automatically pick the required library and build the code.
+                  ->
+
+
+- Completed building the application till the sample example part.
+- You need to understand how the libraries are taken in this sample example and then you should be good.
+- There also seems to be a jar that gets built internally which is a good thig.
+- You can repurpose this jar to use it in your jar file.
+-> Install OpenCV in your system so that you can properly do development for openCV (done)
+->

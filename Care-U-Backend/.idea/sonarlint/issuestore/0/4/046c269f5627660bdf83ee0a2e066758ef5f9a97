@@ -1,0 +1,4 @@
+
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(²àéÁüÿÿÿÿ
+d
+java:S2259""IA "NullPointerException" could be thrown; "inputStream" is nullable here.(¶ò†Áþÿÿÿÿ

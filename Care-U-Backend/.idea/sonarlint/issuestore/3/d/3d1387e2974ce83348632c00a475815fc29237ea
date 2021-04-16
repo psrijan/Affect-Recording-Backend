@@ -1,0 +1,7 @@
+
+`
+java:S2095&"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(âÂ·Ê
+a
+java:S2142:"FEither re-interrupt this method or rethrow the "InterruptedException".(è®ã¶øÿÿÿÿ
+p
+java:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úþÿÿÿÿ
